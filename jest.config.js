@@ -3,5 +3,6 @@ module.exports = {
   preset: "ts-jest",
   testEnvironment: "node",
   roots: ["<rootDir>/tests"],
-  testRegex: '\\.(test|spec)\\.ts$'
+  testRegex: '\\.(test|spec)\\.ts$',
+  collectCoverage : true,
 };
